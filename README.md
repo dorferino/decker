@@ -2,6 +2,10 @@
 
 Generates image sheets for [Magic the Gathering](http://magic.wizards.com/), handles decks and drafts.
 
+### Deck Files
+
+Decks should be csv files with rows `(edition, name, count)`, see example decks
+
 ## Usage
 
 `python fetchdeck.py -d <deck.csv> -o <output.png> [-t] [-f <sheet format>]`
@@ -38,10 +42,6 @@ Updates the deck files in a directory with the latest required set
 `./genset.sh`
 
 Generates all decks in a directory
-
-### Decks
-
-Decks should be csv files with rows `(edition, name, count)`
 
 #### MtG Card Back
 * [option 1](https://www.slightlymagic.net/forum/download/file.php?id=11045&mode=view)
